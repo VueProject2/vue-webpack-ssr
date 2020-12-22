@@ -1,0 +1,10 @@
+# 用来规范编辑器的配置，在不同编辑器使用相同的编码规范
+root = true #在当前项目中读editorconfig的配置，读到根目录就可以了，不再去上层搜索了，也就是使用这个配置文件的编辑器规范，不用编辑器的
+
+[*] #匹配项目中的所有文件
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true #文件保存时，自动给最后加一空行
+trim_trailing_whitespace = true #自动去掉行最后的空格
